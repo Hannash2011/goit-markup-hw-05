@@ -90,7 +90,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    position: absolute;
+    margin-right: 76px;
 }
 
 .logo-footer {
@@ -215,6 +215,7 @@ button {
         url(../images/jmg11.jpg);
     padding: 188px 0;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .tittle {
