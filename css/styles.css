@@ -559,9 +559,12 @@ button {
 }
 
 .inputs {
+    display: flex;
+    flex-direction: column;
     border-radius: 4px;
     width: 360px;
-    height: 336px;
+    min-height: 336px;
 }
+
 
 /*   */
