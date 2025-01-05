@@ -513,8 +513,6 @@ button {
     padding: 72px 24px 24px 24px;
 }
 
-
-
 .modal {
     position: absolute;
     top: 50%;
@@ -592,5 +590,10 @@ button {
     margin-top: 112px;
 }
 
+.modal-form {
+    margin-bottom: 8px;
+}
+
+.modal-label {}
 
 /*   */
