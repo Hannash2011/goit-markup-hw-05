@@ -510,6 +510,7 @@ button {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    padding: 72px 24px 24px 24px;
 }
 
 
@@ -518,15 +519,14 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-
     width: 408px;
     min-height: 584px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
-
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    padding: 72px 24px 24px 24px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop:not(.is-open) .modal {
@@ -537,25 +537,36 @@ button {
     position: absolute;
     top: 24px;
     right: 24px;
-    border-radius: 100%;
+    border-radius: 50%;
     fill: var(--cornflower);
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.1);
     width: 24px;
     height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-
 }
 
-.icon {}
+.button-modal:hover,
+.button-modal:focus {
+    background-color: #404bbf;
+    border: none;
+}
 
+.icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .icon:hover,
 .icon:focus {
     background-color: #404bbf;
 }
-
-
 
 .tekst-modal {
     font-family: var(--font-family);
@@ -565,7 +576,11 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
-    margin: 0;
+    margin-top: 72px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #2E2F42;
 }
 
 .inputs {
