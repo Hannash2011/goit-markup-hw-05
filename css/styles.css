@@ -492,6 +492,41 @@ button {
     fill: #f4f4fd;
 }
 
+.subscribe-footer {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.subscribe-form-footer {
+    display: flex;
+    gap 24px;
+}
+
+.subscribe-form-label {}
+
+.input-form-footer {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.input-form-footer .placeholder {
+    color #ffffff;
+}
+
+
 .backdrop {
     position: fixed;
     top: 0;
