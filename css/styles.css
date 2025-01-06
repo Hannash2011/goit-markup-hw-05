@@ -503,7 +503,7 @@ button {
 
 .subscribe-form-footer {
     display: flex;
-    gap 24px;
+    gap: 24px;
 }
 
 .subscribe-form-label {}
