@@ -555,6 +555,7 @@ button {
 .button-modal:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff
 }
 
 .icon {
@@ -622,6 +623,10 @@ button {
     border-color: #4D5AE5;
 }
 
+.input-modal:focus svg {
+    fill: #4D5AE5;
+}
+
 .icon-input {
     position: absolute;
     left: 16px;
@@ -663,6 +668,10 @@ button {
     margin-bottom: 24px;
 }
 
+.checkbox {
+    margin-bottom: 24px;
+}
+
 .span-label {
     width: 16px;
     height: 16px;
@@ -675,7 +684,7 @@ button {
     fill: transparent;
 }
 
-.input-checkbox:checked .span-label {
+.input-checkbox:checked+.modal-label-input .span-label {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -698,6 +707,7 @@ button {
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
+    font-family: "Roboto", sans-serif;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
