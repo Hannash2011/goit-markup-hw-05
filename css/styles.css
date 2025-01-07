@@ -756,7 +756,7 @@ button {
     color: #4d5ae5;
 }
 
-.button-send {
+.button-send-modal {
     display: block;
     min-width: 169px;
     height: 56px;
