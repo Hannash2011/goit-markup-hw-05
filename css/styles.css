@@ -745,8 +745,10 @@ button {
     fill: transparent;
 }
 
-.input-checkbox:checked+.span-label {
-    background-color: #404bbf;
+
+
+.input-checkbox:checked+.modal-label-last>.span-label {
+    background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
 }
