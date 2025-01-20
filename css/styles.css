@@ -767,11 +767,13 @@ button {
 }
 
 .button-send-last:hover {
-    color: #4D5AE5;
+    color: #FFFFFF;
+    background-color: #404bbf
 }
 
 .button-send-last:focus {
-    color: #4D5AE5;
+    color: #FFFFFF;
+    background-color: #404bbf;
 }
 
 /*   */
