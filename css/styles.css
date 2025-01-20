@@ -766,4 +766,12 @@ button {
     border-radius: 4px;
 }
 
+.button-send-last:hover {
+    color: #4D5AE5;
+}
+
+.button-send-last:focus {
+    color: #4D5AE5;
+}
+
 /*   */
