@@ -766,14 +766,10 @@ button {
     border-radius: 4px;
 }
 
-.button-send-last:hover {
-    color: #FFFFFF;
-    background-color: #404bbf
-}
 
+.button-send-last:hover,
 .button-send-last:focus {
-    color: #FFFFFF;
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
 
 /*   */
